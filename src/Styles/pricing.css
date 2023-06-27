@@ -1,0 +1,26 @@
+.pricing{
+    background-color: #221C38;
+    padding: 50px;
+    color: #fff;
+}
+
+.pricing-header{
+    text-align: center;
+}
+
+.card-price-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-header h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.pricing-header p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}

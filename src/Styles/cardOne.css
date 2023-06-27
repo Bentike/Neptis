@@ -1,0 +1,44 @@
+.price-card{
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.free-card{
+     background-color: #4d1c58;
+}
+
+.check-wrap{
+    display: flex;
+    margin: 10px 0;
+}
+
+.check-wrap p{
+    font-size: 14px;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.start{
+    padding: 10px;
+    width: 280px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px 0;
+    background-color: #A522C3;
+    color: #fff;
+}
+
+.free{
+    font-size: 14px;
+}
+
+.price{
+    font-size: 28px;
+    margin: 10px 0;
+}
