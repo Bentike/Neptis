@@ -1,0 +1,17 @@
+.features-wrap{
+    text-align: center;
+    padding: 50px;
+    background-color:#221C38;
+}
+
+.features-wrap h2{
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.card-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

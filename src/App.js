@@ -2,6 +2,7 @@ import './App.css';
 import Logo from "./Components/Logo";
 import Navs from './Components/Navs';
 import Banner from './Components/Banner';
+import Features from './Components/Features';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
            <Banner/>
         </main>
       </header>
+      <section>
+        <Features/>
+      </section>
     </div>
   );
 }
