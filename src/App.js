@@ -5,6 +5,7 @@ import Banner from './Components/Banner';
 import Features from './Components/Features';
 import HowItWorks from './Components/HowItWorks';
 import Testimonial from './Components/Testimonial';
+import Pricing from './Components/Pricing';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Features/>
         <HowItWorks/>
         <Testimonial/>
+        <Pricing/>
     </div>
   );
 }
