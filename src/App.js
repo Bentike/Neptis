@@ -4,6 +4,7 @@ import Navs from './Components/Navs';
 import Banner from './Components/Banner';
 import Features from './Components/Features';
 import HowItWorks from './Components/HowItWorks';
+import Testimonial from './Components/Testimonial';
 
 function App() {
   return (
@@ -17,12 +18,9 @@ function App() {
            <Banner/>
         </main>
       </header>
-      <section>
         <Features/>
-      </section>
-      <section>
         <HowItWorks/>
-      </section>
+        <Testimonial/>
     </div>
   );
 }
