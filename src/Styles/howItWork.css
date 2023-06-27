@@ -1,0 +1,35 @@
+.work-wrap{
+  display: flex;
+  justify-content: space-between;
+  background-color: #221C38;
+  color: #fff;
+}
+
+.design-left{
+    display: flex;
+    margin-left: 50px;
+}
+
+.works-div{
+  margin: 20px 0;
+  padding: 10px 5px;
+}
+
+.works-div h4{
+    margin-bottom: 10px;
+}
+
+.works-div p{
+    font-size: 14px;
+    width: 400px;
+}
+
+.robot-img{
+    width: 700px;
+    height: 400px;
+}
+
+.line{
+    height: 270px;
+    margin-top: 35px;
+}

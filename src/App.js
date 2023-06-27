@@ -3,6 +3,7 @@ import Logo from "./Components/Logo";
 import Navs from './Components/Navs';
 import Banner from './Components/Banner';
 import Features from './Components/Features';
+import HowItWorks from './Components/HowItWorks';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </header>
       <section>
         <Features/>
+      </section>
+      <section>
+        <HowItWorks/>
       </section>
     </div>
   );
