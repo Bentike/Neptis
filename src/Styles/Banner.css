@@ -1,0 +1,31 @@
+.banner-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner-text h1{
+    font-size: 72px;
+}
+
+.banner-text p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.banner-text button{
+    padding: 10px;
+    background-color:#A522C3;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.banner-img-wrap{
+    text-align: center;
+}
+
+.banner-img{
+    width: 90%;
+}
+

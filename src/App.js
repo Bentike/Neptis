@@ -1,6 +1,7 @@
 import './App.css';
 import Logo from "./Components/Logo";
 import Navs from './Components/Navs';
+import Banner from './Components/Banner';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
            <Logo/>
            <Navs/>
         </nav>
+        <main>
+           <Banner/>
+        </main>
       </header>
     </div>
   );
