@@ -1,10 +1,12 @@
 .banner-text{
     text-align: center;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .banner-text h1{
-    font-size: 72px;
+    font-size: 50px;
+    margin-top: 50px;
 }
 
 .banner-text p{
