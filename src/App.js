@@ -6,7 +6,7 @@ import Banner from './Components/Banner';
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className='header'>
         <nav className='nav'>
            <Logo/>
            <Navs/>

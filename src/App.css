@@ -9,3 +9,7 @@
   justify-content: space-between;
   padding: 20px 100px;
 }
+
+.header{
+  background-image: linear-gradient(to right, #0912DA,  #8f39f9 15%, #0912DA);
+}
