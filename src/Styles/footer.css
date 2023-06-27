@@ -1,0 +1,23 @@
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #221C38;
+    color: #fff;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links p{
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.socials img{
+  width: 14px;
+  height: 14px;
+  margin: 0 10px;
+}

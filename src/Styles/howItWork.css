@@ -1,6 +1,7 @@
 .work-wrap{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #221C38;
   color: #fff;
 }

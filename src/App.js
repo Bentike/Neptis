@@ -6,6 +6,7 @@ import Features from './Components/Features';
 import HowItWorks from './Components/HowItWorks';
 import Testimonial from './Components/Testimonial';
 import Pricing from './Components/Pricing';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,14 +16,13 @@ function App() {
            <Logo/>
            <Navs/>
         </nav>
-        <main>
            <Banner/>
-        </main>
       </header>
         <Features/>
         <HowItWorks/>
         <Testimonial/>
         <Pricing/>
+        <Footer/>
     </div>
   );
 }
