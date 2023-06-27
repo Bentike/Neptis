@@ -1,14 +1,15 @@
 import './App.css';
-import Logo from "./Components/Logo"
+import Logo from "./Components/Logo";
+import Navs from './Components/Navs';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <nav>
+        <nav className='nav'>
            <Logo/>
+           <Navs/>
         </nav>
-      <h1>Hello</h1>
       </header>
     </div>
   );
