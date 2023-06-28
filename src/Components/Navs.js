@@ -1,7 +1,18 @@
+import { useState } from "react";
 import "../Styles/navs.css";
 import hambugger from "../images/hambugger.png";
 
 const Navs = () => {
+  const [modal, setModal] = useState(false);
+
+  const openModal = () => {
+     setModal(true);
+  }
+
+  const closeModal = () => {
+    setModal(false);
+  }
+
   return (
     <div>
       <ul className="nav-items">
@@ -14,11 +25,11 @@ const Navs = () => {
         </li>
       </ul>
 
-      <img src={hambugger} alt="open nav-links" className="hambugger" />
+      <img src={hambugger} alt="open nav-links" className="hambugger" onClick={openModal}/>
 
-      <div className="nav-overlay">
+      <div className="nav-overlay" style={{display: modal ? "block" : "none"}}>
         <ul className="overlay-list">
-          <p className="close">X</p>
+          <p className="close" onClick={closeModal}>X</p>
           <li>Home</li>
           <li>Features</li>
           <li>How it works</li>
