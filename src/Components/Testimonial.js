@@ -1,5 +1,7 @@
 import "../Styles/testimonial.css";
 import client from "../images/testimonial-image.png";
+import arrowBack from "../images/arrow-back.png";
+import arrowForward from "../images/arrow-forward.png";
 
 const Testimonial = () => {
   return (
@@ -26,6 +28,10 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="controls">
+          <img src={arrowBack} alt="slide back"/>          
+          <img src={arrowForward} alt="slide forward" className="forward"/>          
       </div>
     </div>
   );
