@@ -22,6 +22,30 @@
     display: none;
 }
 
+.nav-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.overlay-list{
+    color: #fff;
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+.close{
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
 @media screen and (max-width: 740px){
     .nav-items{
         display: none;
