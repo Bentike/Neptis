@@ -13,7 +13,8 @@ const Testimonial = () => {
         showIndicators={false}
         showArrows={true}
         autoPlay={true}
-        interval="1000"
+        interval="2000"
+        showThumbs={false}
         renderArrowPrev={(clickHandler, hasPrev) => {
           return (
             <div
