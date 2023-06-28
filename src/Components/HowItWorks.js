@@ -24,7 +24,7 @@ const HowItWorks = () => {
                    </div>
                 </div>
             </div>
-            <div>
+            <div className="design-right">
                 <img src={robot} alt="robotics" className="robot-img"/>
             </div>
         </div>
