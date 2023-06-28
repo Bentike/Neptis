@@ -9,7 +9,32 @@ const Testimonial = () => {
   return (
     <div className="testimonial">
       <h3>Testimonials</h3>
-      <Carousel showIndicators={false} showArrows={false}>
+      <Carousel
+        showIndicators={false}
+        showArrows={true}
+        autoPlay={true}
+        interval="1000"
+        renderArrowPrev={(clickHandler, hasPrev) => {
+          return (
+            <div
+             className="back"
+              onClick={clickHandler}
+            >
+              <img src={arrowBack} alt="slide back" className="back-arrow"/>
+            </div>
+          );
+        }}
+        renderArrowNext={(clickHandler, hasNext) => {
+          return (
+            <div
+             className="forward"
+              onClick={clickHandler}
+            >
+             <img src={arrowForward} alt="slide forward" className="forward-arrow"/>
+            </div>
+          );
+        }}
+      >
         <div>
           <div className="testimonial-text-wrap">
             <p className="testimonial-text">
@@ -77,10 +102,10 @@ const Testimonial = () => {
           </div>
         </div>
       </Carousel>
-      <div className="controls">
-        <img src={arrowBack} alt="slide back" />
+      {/* <div className="controls">
+        <img src={arrowBack} alt="slide back"/>
         <img src={arrowForward} alt="slide forward" className="forward" />
-      </div>
+      </div> */}
     </div>
   );
 };
