@@ -1,93 +1,102 @@
-.work-wrap{
+.work-wrap {
   display: flex;
   justify-content: space-between;
-  background-color: #221C38;
+  background-color: #221c38;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.design-left {
+  display: flex;
+  margin-left: 50px;
+}
+
+.how {
+  background-color: #221c38;
+  text-align: center;
+  padding: 20px;
   color: #fff;
 }
 
-.design-left{
-    display: flex;
-    margin-left: 50px;
+.how h3 {
+  font-size: 30px;
 }
 
-.works-div{
+.works-div {
   margin: 20px 0;
   padding: 10px 5px;
 }
 
-.works-div h4{
-    margin-bottom: 10px;
+.works-div h4 {
+  margin-bottom: 10px;
 }
 
-.works-div p{
-    font-size: 14px;
+.works-div p {
+  font-size: 14px;
+  width: 400px;
+}
+
+.robot-img {
+  width: 600px;
+  height: 400px;
+}
+
+.line {
+  height: 270px;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1100px) {
+  .robot-img {
     width: 400px;
+  }
 }
 
-.robot-img{
-    width: 600px;
-    height: 400px;
+@media screen and (max-width: 895px) {
+  .works-div {
+    margin: 5px 0;
+    padding: 10px 5px;
+  }
+
+  .works-div h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .works-div p {
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .line {
+    height: 230px;
+    margin-top: 18px;
+  }
+
+  .robot-img {
+    width: 400px;
+    height: 300px;
+  }
 }
 
-.line{
-    height: 270px;
-    margin-top: 35px;
+@media screen and (max-width: 740px) {
+  .work-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .robot-img {
+    margin: 20px 0;
+  }
+
+  .design-left {
+    margin-left: 0;
+  }
 }
 
-@media screen and (max-width: 1100px){
-    .robot-img{
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 895px){
-    .works-div{
-        margin: 5px 0;
-        padding: 10px 5px;
-      }
-      
-      .works-div h4{
-          margin-bottom: 5px;
-          font-size: 12px;
-      }
-      
-      .works-div p{
-          font-size: 12px;
-          width: 250px;
-      }
-
-      .line{
-        height: 230px;
-        margin-top: 18px;
-    }
-
-    .robot-img{
-        width: 400px;
-        height: 300px;
-    }
-        
-}
-
-@media screen and (max-width: 740px){
-    .work-wrap{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .robot-img{
-       margin: 20px 0;
-    }
-
-    .design-left{
-        margin-left: 0;
-    }
-        
-}
-
-@media screen and (max-width: 440px){
-    .robot-img{
-      width: 300px;
-      height: 250px;
-    }
-        
+@media screen and (max-width: 440px) {
+  .robot-img {
+    width: 300px;
+    height: 250px;
+  }
 }
