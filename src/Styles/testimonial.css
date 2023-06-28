@@ -33,6 +33,8 @@
 
 .text-img{
     margin-right: 10px;
+    width: 35px !important;
+    height: 35px !important;
 }
 
 .role{
