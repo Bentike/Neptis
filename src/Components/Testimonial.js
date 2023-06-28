@@ -9,7 +9,7 @@ const Testimonial = () => {
   return (
     <div className="testimonial">
       <h3>Testimonials</h3>
-      <Carousel showIndicators={false}>
+      <Carousel showIndicators={false} showArrows={false}>
         <div>
           <div className="testimonial-text-wrap">
             <p className="testimonial-text">
