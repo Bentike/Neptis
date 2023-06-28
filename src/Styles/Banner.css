@@ -31,3 +31,18 @@
     width: 90%;
 }
 
+@media screen and (max-width: 900px){
+    .banner-text h1{
+        font-size: 30px;
+    }    
+}
+
+@media screen and (max-width: 500px){
+    .banner-text h1{
+        font-size: 20px;
+    }
+
+    .banner-text p{
+        font-size: 12px;
+    }    
+}
