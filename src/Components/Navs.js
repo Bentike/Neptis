@@ -1,4 +1,5 @@
 import "../Styles/navs.css";
+import hambugger from "../images/hambugger.png";
 
 const Navs = () => {
     return(
@@ -10,6 +11,7 @@ const Navs = () => {
               <li>Pricing</li>
               <li><button>Get Started</button></li>
            </ul>
+           <img src={hambugger} alt="open nav-links" className="hambugger"/>
        </div>
     );
 }

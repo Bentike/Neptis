@@ -17,3 +17,17 @@
     margin-top: -10px;
     border-radius: 50px;
 }
+
+.hambugger{
+    display: none;
+}
+
+@media screen and (max-width: 740px){
+    .nav-items{
+        display: none;
+    }
+
+    .hambugger{
+        display: block;
+    }
+}
